@@ -75,7 +75,7 @@ h2 {
 }
 
 h3 {
-    font-size: 5rem;
+    font-size: 4rem;
 }
 
 h4 {
@@ -95,6 +95,24 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    color:white;
+    
+    
+
+}
+header nav {
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+     
+   
+
+}
+.socials{
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
 }
 
 /* spacer */
@@ -120,18 +138,21 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     color:white;
+ 
+
 }
-.menu-section{
+
+.menu-section {
  display: flex;
  flex-direction: column;
- 
+ flex-wrap: wrap;
+
  
 
 }
 .menu-item{
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
+    
+    
 }
 
 
@@ -163,5 +184,9 @@ footer {
         height: auto;
         padding-top: 2.5vh;
         font-size: 2rem;
+    }
+    header nav a{
+      display:flex;
+      flex-direction: column;
     }
 }
