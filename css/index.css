@@ -242,10 +242,11 @@ footer nav{
         margin:20%;
         padding:30%;
     }
-    header nav{
-        display:flex;
+   
+    header nav a{
+        display: flex;
         flex-direction: column;
-        justify-content: center;
+
     }
 
     /* gallery section */
