@@ -114,6 +114,7 @@ header {
 header h1{
     display: flex;
     justify-content: center;
+    
   
 }
  nav  {
@@ -123,6 +124,9 @@ header h1{
     
 }
 header nav a {
+    color:white;
+}
+header a h1{
     color:white;
 }
 .socials a{
@@ -183,15 +187,23 @@ header nav a {
  display: flex;
  flex-direction: column;
  flex-wrap: wrap;
-border: 1px solid yellow;
+/*border: 1px solid yellow;*/
 width:40%;
 margin-bottom: 20px;
 
  
 
 }
-.menu-item{
+.menu-item div h4{
+    display: flex;
+    justify-content: center;
+    
+}
+.menu-item p{
+ display: flex;
+ 
 
+    
 }
 
 
@@ -219,6 +231,7 @@ footer nav{
 footer nav a {
     color:white;
 }
+
 
 
 /* mobile media query */
