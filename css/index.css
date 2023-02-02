@@ -92,19 +92,24 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    color:white;
-    border-width: 20%;
+    
+   
    
 
     
 }
 .top{
-    display: flex;
-    justify-content:center;
+  
+    background-color: rgba(51, 49, 49, 0.705);
     
     
     
 }
+header h1{
+ display: flex;
+ justify-content: center;
+}
+
 header nav{
     display: flex;
     justify-content: space-evenly;
@@ -114,7 +119,8 @@ header nav{
 }
 .socials{
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 /* spacers */
